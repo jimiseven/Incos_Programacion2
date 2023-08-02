@@ -1,0 +1,6 @@
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\Propiedades\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.exe.config
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\Propiedades\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.exe
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\Propiedades\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.pdb
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\Propiedades\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.csprojResolveAssemblyReference.cache
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\Propiedades\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.exe
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\Propiedades\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.pdb
