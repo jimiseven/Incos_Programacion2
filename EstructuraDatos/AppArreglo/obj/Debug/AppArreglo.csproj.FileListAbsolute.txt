@@ -1,6 +1,5 @@
 C:\Users\LocalHome\Desktop\Progra\Incos_Programacion2\EstructuraDatos\AppArreglo\bin\Debug\AppArreglo.exe.config
 C:\Users\LocalHome\Desktop\Progra\Incos_Programacion2\EstructuraDatos\AppArreglo\bin\Debug\AppArreglo.exe
 C:\Users\LocalHome\Desktop\Progra\Incos_Programacion2\EstructuraDatos\AppArreglo\bin\Debug\AppArreglo.pdb
-C:\Users\LocalHome\Desktop\Progra\Incos_Programacion2\EstructuraDatos\AppArreglo\obj\Debug\AppArreglo.csprojResolveAssemblyReference.cache
 C:\Users\LocalHome\Desktop\Progra\Incos_Programacion2\EstructuraDatos\AppArreglo\obj\Debug\AppArreglo.exe
 C:\Users\LocalHome\Desktop\Progra\Incos_Programacion2\EstructuraDatos\AppArreglo\obj\Debug\AppArreglo.pdb
