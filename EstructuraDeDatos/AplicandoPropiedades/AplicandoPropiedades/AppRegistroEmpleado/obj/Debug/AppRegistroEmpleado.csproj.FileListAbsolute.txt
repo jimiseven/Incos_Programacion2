@@ -1,0 +1,9 @@
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\01-08-23\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.exe.config
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\01-08-23\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.csprojResolveAssemblyReference.cache
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\01-08-23\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\01-08-23\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\01-08-23\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\01-08-23\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.pdb
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\AplicandoPropiedades\AplicandoPropiedades\AppRegistroEmpleado\bin\Debug\AppRegistroEmpleado.exe.config
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\AplicandoPropiedades\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.exe
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\AplicandoPropiedades\AplicandoPropiedades\AppRegistroEmpleado\obj\Debug\AppRegistroEmpleado.pdb

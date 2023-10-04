@@ -1,0 +1,5 @@
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\26-09-23\EstructuraDeDatos\AppArreglosPorDefinir\bin\Debug\AppArreglosPorDefinir.exe.config
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\26-09-23\EstructuraDeDatos\AppArreglosPorDefinir\bin\Debug\AppArreglosPorDefinir.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\26-09-23\EstructuraDeDatos\AppArreglosPorDefinir\bin\Debug\AppArreglosPorDefinir.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\26-09-23\EstructuraDeDatos\AppArreglosPorDefinir\obj\Debug\AppArreglosPorDefinir.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SEGUNDO BIMESTRE\26-09-23\EstructuraDeDatos\AppArreglosPorDefinir\obj\Debug\AppArreglosPorDefinir.pdb

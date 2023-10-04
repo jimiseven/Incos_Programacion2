@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppArreglosPorDefinir", "AppArreglosPorDefinir\AppArreglosPorDefinir.csproj", "{58D5B5CA-77D8-42B9-B9D9-49A0477C8AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabajoEnClase", "TrabajoEnClase\TrabajoEnClase.csproj", "{7C9874E6-A643-42F3-B7BE-32579C03C372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen", "Examen\Examen.csproj", "{394A0597-F97E-4125-8261-179FBE497298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D5B5CA-77D8-42B9-B9D9-49A0477C8AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D5B5CA-77D8-42B9-B9D9-49A0477C8AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D5B5CA-77D8-42B9-B9D9-49A0477C8AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D5B5CA-77D8-42B9-B9D9-49A0477C8AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9874E6-A643-42F3-B7BE-32579C03C372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9874E6-A643-42F3-B7BE-32579C03C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9874E6-A643-42F3-B7BE-32579C03C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9874E6-A643-42F3-B7BE-32579C03C372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394A0597-F97E-4125-8261-179FBE497298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A0597-F97E-4125-8261-179FBE497298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A0597-F97E-4125-8261-179FBE497298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A0597-F97E-4125-8261-179FBE497298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

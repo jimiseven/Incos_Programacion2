@@ -1,0 +1,27 @@
+c:\users\yaten-douji\documents\visual studio 2012\Projects\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe.config
+c:\users\yaten-douji\documents\visual studio 2012\Projects\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe
+c:\users\yaten-douji\documents\visual studio 2012\Projects\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.pdb
+c:\users\yaten-douji\documents\visual studio 2012\Projects\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.csprojResolveAssemblyReference.cache
+c:\users\yaten-douji\documents\visual studio 2012\Projects\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.exe
+c:\users\yaten-douji\documents\visual studio 2012\Projects\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.pdb
+D:\ArnezCristianSistemas2A\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe.config
+D:\ArnezCristianSistemas2A\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.exe
+D:\ArnezCristianSistemas2A\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.pdb
+D:\ArnezCristianSistemas2A\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe
+D:\ArnezCristianSistemas2A\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.pdb
+D:\ArnezCristianSistemas2A\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.csprojResolveAssemblyReference.cache
+F:\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe.config
+F:\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.exe
+F:\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe.config
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.csprojResolveAssemblyReference.cache
+D:\incos\2023\progra 2\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe.config
+D:\incos\2023\progra 2\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.exe
+D:\incos\2023\progra 2\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.pdb
+D:\incos\2023\progra 2\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.exe
+D:\incos\2023\progra 2\SobreCargadeConstructores\AppCalcularNota\bin\Debug\AppCalcularNota.pdb
+D:\incos\2023\progra 2\SobreCargadeConstructores\AppCalcularNota\obj\Debug\AppCalcularNota.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\Examen\bin\Debug\Examen.exe.config
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\Examen\obj\Debug\Examen.csprojResolveAssemblyReference.cache
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\Examen\bin\Debug\Examen.exe
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\Examen\bin\Debug\Examen.pdb
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\Examen\obj\Debug\Examen.exe
+C:\Users\LocalHome\Desktop\INCOS\Programacion 2\EstructuraDeDatos\Examen\obj\Debug\Examen.pdb
