@@ -65,8 +65,6 @@ F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Exp
 F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesUsuario.resources
 F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesVenta.resources
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe.config
-F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
-F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.pdb
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
@@ -82,3 +80,5 @@ F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppV
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
+F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
+F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
