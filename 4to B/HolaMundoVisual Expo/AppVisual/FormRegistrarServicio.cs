@@ -102,5 +102,69 @@ namespace AppVisual
 
             return true;
         }
+
+        private void button1Modificar_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una fila seleccionada
+            if (dataGridViewServicios.SelectedRows.Count > 0)
+            {
+                // Recuperamos el índice de la fila seleccionada
+                int indiceFilaSeleccionada = dataGridViewServicios.SelectedRows[0].Index;
+
+                // Verificamos si el índice es válido
+                if (indiceFilaSeleccionada >= 0 && indiceFilaSeleccionada < listaServicio.Count)
+                {
+                    // Recuperamos el objeto servicios en la posición del índice
+                    servicios servicioSeleccionado = (servicios)listaServicio[indiceFilaSeleccionada];
+
+                    // Mostramos los datos en los controles
+                    textBoxIdServicio.Text = servicioSeleccionado.IdServicio.ToString();
+                    comboBoxServicios.Text = servicioSeleccionado.NombreServicio;
+                    textBoxCorreoPadre.Text = servicioSeleccionado.CorreoPadre;
+                    textBoxContraseñaPadre.Text = servicioSeleccionado.ContraseñaPadre;
+                    dateTimePickerFechaCreacion.Text = servicioSeleccionado.FechaCreacioServicio.ToString();
+
+                    // Guardamos la posición actual para su posterior modificación
+                    posicion = indiceFilaSeleccionada;
+                }
+            }
+        }
+
+        private void labelVisualServicio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+                // Verificamos si hay una posición válida
+        if (posicion >= 0 && posicion < listaServicio.Count)
+        {
+            try
+            {
+                // Modificamos el objeto servicios en la lista con los nuevos valores
+                servicios servicioModificado = new servicios(
+                    int.Parse(textBoxIdServicio.Text),
+                    comboBoxServicios.Text,
+                    textBoxCorreoPadre.Text,
+                    textBoxContraseñaPadre.Text,
+                    DateTime.Parse(dateTimePickerFechaCreacion.Text)
+                );
+
+                listaServicio[posicion] = servicioModificado;
+
+                ActualizarDataGridView();
+
+                // Limpiar las casillas automaticamente, despues de cargar los nuevos datos
+                Limpiar();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Error: Por favor, ingrese datos válidos en los campos numéricos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+    }
+        }
+
+
     }
 }

@@ -47,6 +47,8 @@
             this.comboBoxServicios = new System.Windows.Forms.ComboBox();
             this.dateTimePickerFechaCreacion = new System.Windows.Forms.DateTimePicker();
             this.buttonEliminar = new System.Windows.Forms.Button();
+            this.button1Modificar = new System.Windows.Forms.Button();
+            this.button1GMod = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewServicios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,11 +60,12 @@
             this.labelVisualServicio.BackColor = System.Drawing.Color.White;
             this.labelVisualServicio.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVisualServicio.ForeColor = System.Drawing.Color.Black;
-            this.labelVisualServicio.Location = new System.Drawing.Point(279, 264);
+            this.labelVisualServicio.Location = new System.Drawing.Point(299, 306);
             this.labelVisualServicio.Name = "labelVisualServicio";
             this.labelVisualServicio.Size = new System.Drawing.Size(128, 19);
             this.labelVisualServicio.TabIndex = 47;
             this.labelVisualServicio.Text = "Lista de Servicios";
+            this.labelVisualServicio.Click += new System.EventHandler(this.labelVisualServicio_Click);
             // 
             // dataGridViewServicios
             // 
@@ -78,7 +81,7 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewServicios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewServicios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewServicios.Location = new System.Drawing.Point(75, 286);
+            this.dataGridViewServicios.Location = new System.Drawing.Point(95, 328);
             this.dataGridViewServicios.Name = "dataGridViewServicios";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
@@ -92,7 +95,7 @@
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             this.dataGridViewServicios.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridViewServicios.Size = new System.Drawing.Size(508, 150);
+            this.dataGridViewServicios.Size = new System.Drawing.Size(508, 108);
             this.dataGridViewServicios.TabIndex = 46;
             // 
             // buttonLimpiar
@@ -100,9 +103,9 @@
             this.buttonLimpiar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonLimpiar.BackColor = System.Drawing.Color.Gray;
             this.buttonLimpiar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLimpiar.Location = new System.Drawing.Point(269, 216);
+            this.buttonLimpiar.Location = new System.Drawing.Point(164, 229);
             this.buttonLimpiar.Name = "buttonLimpiar";
-            this.buttonLimpiar.Size = new System.Drawing.Size(130, 45);
+            this.buttonLimpiar.Size = new System.Drawing.Size(112, 33);
             this.buttonLimpiar.TabIndex = 45;
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
@@ -170,9 +173,9 @@
             this.ButttonRegistrar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButttonRegistrar.BackColor = System.Drawing.Color.Gray;
             this.ButttonRegistrar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButttonRegistrar.Location = new System.Drawing.Point(75, 216);
+            this.ButttonRegistrar.Location = new System.Drawing.Point(26, 229);
             this.ButttonRegistrar.Name = "ButttonRegistrar";
-            this.ButttonRegistrar.Size = new System.Drawing.Size(130, 45);
+            this.ButttonRegistrar.Size = new System.Drawing.Size(112, 33);
             this.ButttonRegistrar.TabIndex = 38;
             this.ButttonRegistrar.Text = "Registrar";
             this.ButttonRegistrar.UseVisualStyleBackColor = false;
@@ -255,19 +258,47 @@
             this.buttonEliminar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEliminar.BackColor = System.Drawing.Color.Gray;
             this.buttonEliminar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEliminar.Location = new System.Drawing.Point(453, 216);
+            this.buttonEliminar.Location = new System.Drawing.Point(560, 229);
             this.buttonEliminar.Name = "buttonEliminar";
-            this.buttonEliminar.Size = new System.Drawing.Size(130, 45);
+            this.buttonEliminar.Size = new System.Drawing.Size(112, 33);
             this.buttonEliminar.TabIndex = 55;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = false;
             this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
+            // 
+            // button1Modificar
+            // 
+            this.button1Modificar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1Modificar.BackColor = System.Drawing.Color.Gray;
+            this.button1Modificar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1Modificar.Location = new System.Drawing.Point(303, 229);
+            this.button1Modificar.Name = "button1Modificar";
+            this.button1Modificar.Size = new System.Drawing.Size(112, 33);
+            this.button1Modificar.TabIndex = 56;
+            this.button1Modificar.Text = "Modificar";
+            this.button1Modificar.UseVisualStyleBackColor = false;
+            this.button1Modificar.Click += new System.EventHandler(this.button1Modificar_Click);
+            // 
+            // button1GMod
+            // 
+            this.button1GMod.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1GMod.BackColor = System.Drawing.Color.Gray;
+            this.button1GMod.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1GMod.Location = new System.Drawing.Point(442, 229);
+            this.button1GMod.Name = "button1GMod";
+            this.button1GMod.Size = new System.Drawing.Size(112, 33);
+            this.button1GMod.TabIndex = 57;
+            this.button1GMod.Text = "GuardarMod";
+            this.button1GMod.UseVisualStyleBackColor = false;
+            this.button1GMod.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormRegistrarServicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 448);
+            this.Controls.Add(this.button1GMod);
+            this.Controls.Add(this.button1Modificar);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.dateTimePickerFechaCreacion);
             this.Controls.Add(this.comboBoxServicios);
@@ -311,5 +342,7 @@
         private System.Windows.Forms.ComboBox comboBoxServicios;
         private System.Windows.Forms.DateTimePicker dateTimePickerFechaCreacion;
         private System.Windows.Forms.Button buttonEliminar;
+        private System.Windows.Forms.Button button1Modificar;
+        private System.Windows.Forms.Button button1GMod;
     }
 }
