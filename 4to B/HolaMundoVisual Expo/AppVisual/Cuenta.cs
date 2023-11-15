@@ -8,11 +8,11 @@ namespace AppVisual
 {
     class Cuenta
     {
-        private int idCuenta;
-        private string correoCuenta;
-        private string contraseñaCuenta;
-        private DateTime fechaCreacionCuenta;
-        private DateTime fechaCargaCuenta;
+        public int idCuenta;
+        public string correoCuenta;
+        public string contraseñaCuenta;
+        public DateTime fechaCreacionCuenta;
+        public DateTime fechaCargaCuenta;
 
         public Cuenta(int idCuenta, string correoCuenta, string contraseñaCuenta, DateTime fechaCreacionCuenta, DateTime fechaCargaCuenta)
         {

@@ -8,9 +8,9 @@ namespace AppVisual
 {
     class Usuario
     {
-        private int idUsuario;
-        private string nombreUsuario;
-        private int numeroCelularUsuario;
+        public int idUsuario;
+        public string nombreUsuario;
+        public int numeroCelularUsuario;
 
         public Usuario(int idUsuario, string nombreUsuario, int numeroCelularUsuario)
         {

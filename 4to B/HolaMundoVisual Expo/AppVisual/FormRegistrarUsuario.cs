@@ -96,5 +96,59 @@ namespace AppVisual
 
             return true;
         }
+
+        private void button2Mod_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una fila seleccionada
+            if (dataGridViewUsuarios.SelectedRows.Count > 0)
+            {
+                // Recuperamos el índice de la fila seleccionada
+                int indiceFilaSeleccionada = dataGridViewUsuarios.SelectedRows[0].Index;
+
+                // Verificamos si el índice es válido
+                if (indiceFilaSeleccionada >= 0 && indiceFilaSeleccionada < listaUsuario.Count)
+                {
+                    // Recuperamos el objeto Usuario en la posición del índice
+                    Usuario usuarioSeleccionado = (Usuario)listaUsuario[indiceFilaSeleccionada];
+
+                    // Mostramos los datos en los controles
+                    textBoxIdUsuario.Text = usuarioSeleccionado.IdUsuario.ToString();
+                    textBoxNombreUsuario.Text = usuarioSeleccionado.NombreUsuario;
+                    textBoxNumCelularUsuario.Text = usuarioSeleccionado.NumeroCelularUsuario.ToString();
+
+                    // Guardamos la posición actual para su posterior modificación
+                    posicion = indiceFilaSeleccionada;
+                }
+            }
+        }
+
+        private void button1Guar_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una posición válida
+            if (posicion >= 0 && posicion < listaUsuario.Count)
+            {
+                try
+                {
+                    // Modificamos el objeto Usuario en la lista con los nuevos valores
+                    Usuario usuarioModificado = new Usuario(
+                        int.Parse(textBoxIdUsuario.Text),
+                        textBoxNombreUsuario.Text,
+                        int.Parse(textBoxNumCelularUsuario.Text)
+                    );
+
+                    listaUsuario[posicion] = usuarioModificado;
+
+                    // Actualizamos el DataGridView
+                    ActualizarDataGridView();
+
+                    // Limpiamos los controles
+                    Limpiar();
+                }
+                catch (FormatException)
+                {
+                    MessageBox.Show("Error: Por favor, ingrese datos válidos en los campos numéricos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }

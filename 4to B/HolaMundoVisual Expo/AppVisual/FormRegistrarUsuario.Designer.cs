@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.labelVisualUsuarios = new System.Windows.Forms.Label();
             this.dataGridViewUsuarios = new System.Windows.Forms.DataGridView();
             this.buttonLimpiar = new System.Windows.Forms.Button();
@@ -43,6 +43,8 @@
             this.ButttonRegistrar = new System.Windows.Forms.Button();
             this.labelRegistroUsuarios = new System.Windows.Forms.Label();
             this.buttonEliminar = new System.Windows.Forms.Button();
+            this.button1Guar = new System.Windows.Forms.Button();
+            this.button2Mod = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,29 +67,29 @@
             this.dataGridViewUsuarios.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridViewUsuarios.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewUsuarios.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewUsuarios.Location = new System.Drawing.Point(90, 266);
             this.dataGridViewUsuarios.Name = "dataGridViewUsuarios";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.dataGridViewUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.dataGridViewUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewUsuarios.Size = new System.Drawing.Size(508, 150);
             this.dataGridViewUsuarios.TabIndex = 46;
             // 
@@ -96,9 +98,9 @@
             this.buttonLimpiar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonLimpiar.BackColor = System.Drawing.Color.Gray;
             this.buttonLimpiar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLimpiar.Location = new System.Drawing.Point(378, 162);
+            this.buttonLimpiar.Location = new System.Drawing.Point(378, 134);
             this.buttonLimpiar.Name = "buttonLimpiar";
-            this.buttonLimpiar.Size = new System.Drawing.Size(130, 45);
+            this.buttonLimpiar.Size = new System.Drawing.Size(130, 40);
             this.buttonLimpiar.TabIndex = 45;
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
@@ -108,7 +110,7 @@
             // 
             this.textBoxNumCelularUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxNumCelularUsuario.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNumCelularUsuario.Location = new System.Drawing.Point(238, 180);
+            this.textBoxNumCelularUsuario.Location = new System.Drawing.Point(238, 193);
             this.textBoxNumCelularUsuario.Name = "textBoxNumCelularUsuario";
             this.textBoxNumCelularUsuario.Size = new System.Drawing.Size(100, 27);
             this.textBoxNumCelularUsuario.TabIndex = 44;
@@ -120,7 +122,7 @@
             this.labelNumCelularUsuario.BackColor = System.Drawing.Color.White;
             this.labelNumCelularUsuario.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumCelularUsuario.ForeColor = System.Drawing.Color.Black;
-            this.labelNumCelularUsuario.Location = new System.Drawing.Point(86, 188);
+            this.labelNumCelularUsuario.Location = new System.Drawing.Point(86, 201);
             this.labelNumCelularUsuario.Name = "labelNumCelularUsuario";
             this.labelNumCelularUsuario.Size = new System.Drawing.Size(137, 19);
             this.labelNumCelularUsuario.TabIndex = 43;
@@ -133,7 +135,7 @@
             this.labelNombreUsuario.BackColor = System.Drawing.Color.White;
             this.labelNombreUsuario.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNombreUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelNombreUsuario.Location = new System.Drawing.Point(86, 132);
+            this.labelNombreUsuario.Location = new System.Drawing.Point(86, 145);
             this.labelNombreUsuario.Name = "labelNombreUsuario";
             this.labelNombreUsuario.Size = new System.Drawing.Size(124, 19);
             this.labelNombreUsuario.TabIndex = 42;
@@ -143,7 +145,7 @@
             // 
             this.textBoxNombreUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxNombreUsuario.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNombreUsuario.Location = new System.Drawing.Point(238, 132);
+            this.textBoxNombreUsuario.Location = new System.Drawing.Point(238, 145);
             this.textBoxNombreUsuario.Name = "textBoxNombreUsuario";
             this.textBoxNombreUsuario.Size = new System.Drawing.Size(100, 27);
             this.textBoxNombreUsuario.TabIndex = 41;
@@ -155,7 +157,7 @@
             this.labelIdUsuario.BackColor = System.Drawing.Color.White;
             this.labelIdUsuario.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelIdUsuario.Location = new System.Drawing.Point(86, 83);
+            this.labelIdUsuario.Location = new System.Drawing.Point(86, 96);
             this.labelIdUsuario.Name = "labelIdUsuario";
             this.labelIdUsuario.Size = new System.Drawing.Size(79, 19);
             this.labelIdUsuario.TabIndex = 40;
@@ -165,7 +167,7 @@
             // 
             this.textBoxIdUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxIdUsuario.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxIdUsuario.Location = new System.Drawing.Point(238, 83);
+            this.textBoxIdUsuario.Location = new System.Drawing.Point(238, 96);
             this.textBoxIdUsuario.Name = "textBoxIdUsuario";
             this.textBoxIdUsuario.Size = new System.Drawing.Size(100, 27);
             this.textBoxIdUsuario.TabIndex = 39;
@@ -177,7 +179,7 @@
             this.ButttonRegistrar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButttonRegistrar.Location = new System.Drawing.Point(378, 83);
             this.ButttonRegistrar.Name = "ButttonRegistrar";
-            this.ButttonRegistrar.Size = new System.Drawing.Size(130, 45);
+            this.ButttonRegistrar.Size = new System.Drawing.Size(130, 40);
             this.ButttonRegistrar.TabIndex = 38;
             this.ButttonRegistrar.Text = "Registrar";
             this.ButttonRegistrar.UseVisualStyleBackColor = false;
@@ -203,19 +205,47 @@
             this.buttonEliminar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonEliminar.BackColor = System.Drawing.Color.Gray;
             this.buttonEliminar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEliminar.Location = new System.Drawing.Point(531, 122);
+            this.buttonEliminar.Location = new System.Drawing.Point(378, 190);
             this.buttonEliminar.Name = "buttonEliminar";
-            this.buttonEliminar.Size = new System.Drawing.Size(130, 45);
+            this.buttonEliminar.Size = new System.Drawing.Size(130, 40);
             this.buttonEliminar.TabIndex = 57;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = false;
             this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
+            // 
+            // button1Guar
+            // 
+            this.button1Guar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1Guar.BackColor = System.Drawing.Color.Gray;
+            this.button1Guar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1Guar.Location = new System.Drawing.Point(529, 134);
+            this.button1Guar.Name = "button1Guar";
+            this.button1Guar.Size = new System.Drawing.Size(130, 40);
+            this.button1Guar.TabIndex = 59;
+            this.button1Guar.Text = "Guardar";
+            this.button1Guar.UseVisualStyleBackColor = false;
+            this.button1Guar.Click += new System.EventHandler(this.button1Guar_Click);
+            // 
+            // button2Mod
+            // 
+            this.button2Mod.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2Mod.BackColor = System.Drawing.Color.Gray;
+            this.button2Mod.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2Mod.Location = new System.Drawing.Point(529, 83);
+            this.button2Mod.Name = "button2Mod";
+            this.button2Mod.Size = new System.Drawing.Size(130, 40);
+            this.button2Mod.TabIndex = 58;
+            this.button2Mod.Text = "Modificar";
+            this.button2Mod.UseVisualStyleBackColor = false;
+            this.button2Mod.Click += new System.EventHandler(this.button2Mod_Click);
             // 
             // FormRegistrarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 448);
+            this.Controls.Add(this.button1Guar);
+            this.Controls.Add(this.button2Mod);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.labelVisualUsuarios);
             this.Controls.Add(this.dataGridViewUsuarios);
@@ -250,5 +280,7 @@
         private System.Windows.Forms.Button ButttonRegistrar;
         private System.Windows.Forms.Label labelRegistroUsuarios;
         private System.Windows.Forms.Button buttonEliminar;
+        private System.Windows.Forms.Button button1Guar;
+        private System.Windows.Forms.Button button2Mod;
     }
 }
