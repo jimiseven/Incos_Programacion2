@@ -42,10 +42,6 @@ namespace AppVisual
                 {
                     MessageBox.Show("Error: Por favor, ingrese datos válidos en los campos numéricos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
             else
             {
@@ -152,6 +148,60 @@ namespace AppVisual
             else
             {
                 MessageBox.Show("Error: No hay datos para generar el informe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una posición válida
+            if (posicion >= 0 && posicion < listaClientes.Count)
+            {
+                try
+                {
+                    // Modificamos el objeto Cliente en la lista con los nuevos valores
+                    Cliente clienteModificado = new Cliente(
+                        int.Parse(textBoxIdCliente.Text),
+                        textBoxNombre.Text,
+                        int.Parse(textBoxNumCelular.Text)
+                    );
+
+                    listaClientes[posicion] = clienteModificado;
+
+                    // Actualizamos el DataGridView
+                    ActualizarDataGridView();
+
+                    // Limpiamos los controles
+                    Limpiar();
+                }
+                catch (FormatException)
+                {
+                    MessageBox.Show("Error: Por favor, ingrese datos válidos en los campos numéricos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void button2Modificar_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una fila seleccionada
+            if (dataGridViewClientes.SelectedRows.Count > 0)
+            {
+                // Recuperamos el índice de la fila seleccionada
+                int indiceFilaSeleccionada = dataGridViewClientes.SelectedRows[0].Index;
+
+                // Verificamos si el índice es válido
+                if (indiceFilaSeleccionada >= 0 && indiceFilaSeleccionada < listaClientes.Count)
+                {
+                    // Recuperamos el objeto Cliente en la posición del índice
+                    Cliente clienteSeleccionado = (Cliente)listaClientes[indiceFilaSeleccionada];
+
+                    // Mostramos los datos en los controles
+                    textBoxIdCliente.Text = clienteSeleccionado.IdCliente.ToString();
+                    textBoxNombre.Text = clienteSeleccionado.NombreCliente;
+                    textBoxNumCelular.Text = clienteSeleccionado.numeroCelularCliente.ToString();
+
+                    // Guardamos la posición actual para su posterior modificación
+                    posicion = indiceFilaSeleccionada;
+                }
             }
         }
     }

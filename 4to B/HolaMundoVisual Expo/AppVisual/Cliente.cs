@@ -8,9 +8,9 @@ namespace AppVisual
 {
     class Cliente
     {
-        private int idCliente;
-        private string nombreCliente;
-        private int numeroCelularCliente;
+        public int idCliente;
+        public string nombreCliente;
+        public int numeroCelularCliente;
 
         public Cliente(int idCliente, string nombreCliente, int numeroCelularCliente)
         {

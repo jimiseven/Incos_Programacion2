@@ -98,8 +98,6 @@ namespace AppVisual
                 return false;
             }
 
-            // También puedes agregar validaciones específicas para cada campo si es necesario
-
             return true;
         }
 

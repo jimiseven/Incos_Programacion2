@@ -44,6 +44,8 @@
             this.labelVisualClientes = new System.Windows.Forms.Label();
             this.buttonEliminar = new System.Windows.Forms.Button();
             this.buttonImprimir = new System.Windows.Forms.Button();
+            this.button1Guardar = new System.Windows.Forms.Button();
+            this.button2Modificar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewClientes.Location = new System.Drawing.Point(74, 242);
+            this.dataGridViewClientes.Location = new System.Drawing.Point(89, 273);
             this.dataGridViewClientes.Name = "dataGridViewClientes";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
@@ -83,7 +85,7 @@
             this.buttonLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonLimpiar.BackColor = System.Drawing.Color.Gray;
             this.buttonLimpiar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLimpiar.Location = new System.Drawing.Point(360, 138);
+            this.buttonLimpiar.Location = new System.Drawing.Point(360, 124);
             this.buttonLimpiar.Name = "buttonLimpiar";
             this.buttonLimpiar.Size = new System.Drawing.Size(130, 45);
             this.buttonLimpiar.TabIndex = 32;
@@ -95,7 +97,7 @@
             // 
             this.textBoxNumCelular.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxNumCelular.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNumCelular.Location = new System.Drawing.Point(222, 156);
+            this.textBoxNumCelular.Location = new System.Drawing.Point(187, 169);
             this.textBoxNumCelular.Name = "textBoxNumCelular";
             this.textBoxNumCelular.Size = new System.Drawing.Size(100, 27);
             this.textBoxNumCelular.TabIndex = 29;
@@ -107,7 +109,7 @@
             this.labelNumCelularCliente.BackColor = System.Drawing.Color.White;
             this.labelNumCelularCliente.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumCelularCliente.ForeColor = System.Drawing.Color.Black;
-            this.labelNumCelularCliente.Location = new System.Drawing.Point(70, 164);
+            this.labelNumCelularCliente.Location = new System.Drawing.Point(35, 177);
             this.labelNumCelularCliente.Name = "labelNumCelularCliente";
             this.labelNumCelularCliente.Size = new System.Drawing.Size(137, 19);
             this.labelNumCelularCliente.TabIndex = 26;
@@ -120,7 +122,7 @@
             this.labelNombreCliente.BackColor = System.Drawing.Color.White;
             this.labelNombreCliente.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNombreCliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelNombreCliente.Location = new System.Drawing.Point(70, 108);
+            this.labelNombreCliente.Location = new System.Drawing.Point(35, 121);
             this.labelNombreCliente.Name = "labelNombreCliente";
             this.labelNombreCliente.Size = new System.Drawing.Size(117, 19);
             this.labelNombreCliente.TabIndex = 25;
@@ -130,7 +132,7 @@
             // 
             this.textBoxNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxNombre.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNombre.Location = new System.Drawing.Point(222, 108);
+            this.textBoxNombre.Location = new System.Drawing.Point(187, 121);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(100, 27);
             this.textBoxNombre.TabIndex = 24;
@@ -142,7 +144,7 @@
             this.labelIdCliente.BackColor = System.Drawing.Color.White;
             this.labelIdCliente.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdCliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelIdCliente.Location = new System.Drawing.Point(70, 59);
+            this.labelIdCliente.Location = new System.Drawing.Point(35, 72);
             this.labelIdCliente.Name = "labelIdCliente";
             this.labelIdCliente.Size = new System.Drawing.Size(72, 19);
             this.labelIdCliente.TabIndex = 23;
@@ -152,7 +154,7 @@
             // 
             this.textBoxIdCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxIdCliente.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxIdCliente.Location = new System.Drawing.Point(222, 59);
+            this.textBoxIdCliente.Location = new System.Drawing.Point(187, 72);
             this.textBoxIdCliente.Name = "textBoxIdCliente";
             this.textBoxIdCliente.Size = new System.Drawing.Size(100, 27);
             this.textBoxIdCliente.TabIndex = 22;
@@ -190,7 +192,7 @@
             this.labelVisualClientes.BackColor = System.Drawing.Color.White;
             this.labelVisualClientes.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVisualClientes.ForeColor = System.Drawing.Color.Black;
-            this.labelVisualClientes.Location = new System.Drawing.Point(261, 220);
+            this.labelVisualClientes.Location = new System.Drawing.Point(284, 251);
             this.labelVisualClientes.Name = "labelVisualClientes";
             this.labelVisualClientes.Size = new System.Drawing.Size(120, 19);
             this.labelVisualClientes.TabIndex = 36;
@@ -214,19 +216,47 @@
             this.buttonImprimir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonImprimir.BackColor = System.Drawing.Color.Gray;
             this.buttonImprimir.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonImprimir.Location = new System.Drawing.Point(515, 124);
+            this.buttonImprimir.Location = new System.Drawing.Point(360, 191);
             this.buttonImprimir.Name = "buttonImprimir";
-            this.buttonImprimir.Size = new System.Drawing.Size(130, 73);
+            this.buttonImprimir.Size = new System.Drawing.Size(130, 45);
             this.buttonImprimir.TabIndex = 39;
-            this.buttonImprimir.Text = "Generar \r\nReporte";
+            this.buttonImprimir.Text = "Reporte";
             this.buttonImprimir.UseVisualStyleBackColor = false;
             this.buttonImprimir.Click += new System.EventHandler(this.buttonImprimir_Click);
+            // 
+            // button1Guardar
+            // 
+            this.button1Guardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1Guardar.BackColor = System.Drawing.Color.Gray;
+            this.button1Guardar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1Guardar.Location = new System.Drawing.Point(515, 191);
+            this.button1Guardar.Name = "button1Guardar";
+            this.button1Guardar.Size = new System.Drawing.Size(130, 45);
+            this.button1Guardar.TabIndex = 40;
+            this.button1Guardar.Text = "Guardar";
+            this.button1Guardar.UseVisualStyleBackColor = false;
+            this.button1Guardar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2Modificar
+            // 
+            this.button2Modificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2Modificar.BackColor = System.Drawing.Color.Gray;
+            this.button2Modificar.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2Modificar.Location = new System.Drawing.Point(515, 124);
+            this.button2Modificar.Name = "button2Modificar";
+            this.button2Modificar.Size = new System.Drawing.Size(130, 45);
+            this.button2Modificar.TabIndex = 41;
+            this.button2Modificar.Text = "Modificar";
+            this.button2Modificar.UseVisualStyleBackColor = false;
+            this.button2Modificar.Click += new System.EventHandler(this.button2Modificar_Click);
             // 
             // FormRegistrarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 448);
+            this.Controls.Add(this.button2Modificar);
+            this.Controls.Add(this.button1Guardar);
             this.Controls.Add(this.buttonImprimir);
             this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.labelVisualClientes);
@@ -264,5 +294,7 @@
         private System.Windows.Forms.DataGridView dataGridViewClientes;
         private System.Windows.Forms.Button buttonEliminar;
         private System.Windows.Forms.Button buttonImprimir;
+        private System.Windows.Forms.Button button1Guardar;
+        private System.Windows.Forms.Button button2Modificar;
     }
 }
