@@ -1,0 +1,66 @@
+D:\Edd\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.exe.config
+D:\Edd\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.exe
+D:\Edd\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.pdb
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.csprojResolveAssemblyReference.cache
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.exe
+D:\Edd\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.pdb
+F:\__\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.exe.config
+F:\__\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.exe
+F:\__\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.pdb
+F:\__\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.exe
+F:\__\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.pdb
+F:\__\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
+F:\__\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
+F:\__\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
+F:\__\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
+G:\__\nuevo pendrive\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.exe.config
+G:\__\nuevo pendrive\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.exe
+G:\__\nuevo pendrive\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.pdb
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual\AppVisual\bin\Debug\AppVisual.exe.config
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.exe
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual\AppVisual\obj\Debug\AppVisual.pdb
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaCliente.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPoducto.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe.config
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.pdb
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe.config
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.pdb
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csprojResolveAssemblyReference.cache
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaCliente.resources
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPoducto.resources
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
+C:\SOLO GINO\INCOS 2023\PROGRAMACION 2\CUARTO BIMESTRE\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe.config
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.pdb
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarServicio.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarCliente.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarCuenta.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarUsuario.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarVenta.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesCuenta.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesServicio.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesUsuario.resources
+F:\INCOS 2023\PROGRAMACION 2\cuarto bim\HolaMundoVisual Expo\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesVenta.resources
