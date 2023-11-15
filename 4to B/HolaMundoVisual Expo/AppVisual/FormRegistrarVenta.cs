@@ -102,5 +102,63 @@ namespace AppVisual
 
             return true;
         }
+
+        private void button2Mod_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una fila seleccionada
+            if (dataGridViewVentas.SelectedRows.Count > 0)
+            {
+                // Recuperamos el índice de la fila seleccionada
+                int indiceFilaSeleccionada = dataGridViewVentas.SelectedRows[0].Index;
+
+                // Verificamos si el índice es válido
+                if (indiceFilaSeleccionada >= 0 && indiceFilaSeleccionada < listaVenta.Count)
+                {
+                    // Recuperamos el objeto Venta en la posición del índice
+                    Venta ventaSeleccionada = (Venta)listaVenta[indiceFilaSeleccionada];
+
+                    // Mostramos los datos en los controles
+                    textBoxIdVenta.Text = ventaSeleccionada.IdVenta.ToString();
+                    textBoxNumeroCelularVenta.Text = ventaSeleccionada.NumeroCelularVenta.ToString();
+                    textBoxNombreVenta.Text = ventaSeleccionada.NombreVenta;
+                    dateTimePickerFechaInicioVenta.Text = ventaSeleccionada.FechaInicio.ToString();
+                    dateTimePickerFechaFinVenta.Text = ventaSeleccionada.FechaFin.ToString();
+
+                    // Guardamos la posición actual para su posterior modificación
+                    posicion = indiceFilaSeleccionada;
+                }
+            }
+        }
+
+        private void button1Guar_Click(object sender, EventArgs e)
+        {
+            // Verificamos si hay una posición válida
+            if (posicion >= 0 && posicion < listaVenta.Count)
+            {
+                try
+                {
+                    // Modificamos el objeto Venta en la lista con los nuevos valores
+                    Venta ventaModificada = new Venta(
+                        int.Parse(textBoxIdVenta.Text),
+                        int.Parse(textBoxNumeroCelularVenta.Text),
+                        textBoxNombreVenta.Text,
+                        DateTime.Parse(dateTimePickerFechaInicioVenta.Text),
+                        DateTime.Parse(dateTimePickerFechaFinVenta.Text)
+                    );
+
+                    listaVenta[posicion] = ventaModificada;
+
+                    // Actualizamos el DataGridView
+                    ActualizarDataGridView();
+
+                    // Limpiamos los controles
+                    Limpiar();
+                }
+                catch (FormatException)
+                {
+                    MessageBox.Show("Error: Por favor, ingrese datos válidos en los campos numéricos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+    }
+        }
     }
 }

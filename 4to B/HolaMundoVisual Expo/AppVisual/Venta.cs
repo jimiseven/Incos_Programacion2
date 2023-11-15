@@ -8,11 +8,11 @@ namespace AppVisual
 {
     class Venta
     {
-        private int idVenta;
-        private int numeroCelularVenta;
-        private string nombreVenta;
-        private DateTime fechaInicio;
-        private DateTime fechaFin;
+        public int idVenta;
+        public int numeroCelularVenta;
+        public string nombreVenta;
+        public DateTime fechaInicio;
+        public DateTime fechaFin;
 
         public Venta(int idVenta, int numeroCelularVenta, string nombreVenta, DateTime fechaInicio, DateTime fechaFin)
         {
