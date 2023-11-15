@@ -201,7 +201,6 @@ namespace AppVisual
                 {
                     if (venta.NumeroCelularVenta.ToString() == numeroCelular)
                     {
-                        // Venta encontrada, devolverla
                         return venta;
                     }
                 }
