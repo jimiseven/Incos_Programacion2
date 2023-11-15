@@ -50,6 +50,7 @@
             this.button1Guar = new System.Windows.Forms.Button();
             this.button2Mod = new System.Windows.Forms.Button();
             this.button1Rep = new System.Windows.Forms.Button();
+            this.button1B = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -297,11 +298,25 @@
             this.button1Rep.UseVisualStyleBackColor = false;
             this.button1Rep.Click += new System.EventHandler(this.button1Rep_Click);
             // 
+            // button1B
+            // 
+            this.button1B.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1B.BackColor = System.Drawing.Color.Gray;
+            this.button1B.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1B.Location = new System.Drawing.Point(568, 10);
+            this.button1B.Name = "button1B";
+            this.button1B.Size = new System.Drawing.Size(83, 32);
+            this.button1B.TabIndex = 98;
+            this.button1B.Text = "Buscar";
+            this.button1B.UseVisualStyleBackColor = false;
+            this.button1B.Click += new System.EventHandler(this.button1B_Click);
+            // 
             // FormRegistrarVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 448);
+            this.Controls.Add(this.button1B);
             this.Controls.Add(this.button1Rep);
             this.Controls.Add(this.button1Guar);
             this.Controls.Add(this.button2Mod);
@@ -350,5 +365,6 @@
         private System.Windows.Forms.Button button1Guar;
         private System.Windows.Forms.Button button2Mod;
         private System.Windows.Forms.Button button1Rep;
+        private System.Windows.Forms.Button button1B;
     }
 }

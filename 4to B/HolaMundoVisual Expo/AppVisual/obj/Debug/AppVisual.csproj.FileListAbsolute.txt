@@ -82,3 +82,4 @@ F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppV
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
+F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csprojResolveAssemblyReference.cache

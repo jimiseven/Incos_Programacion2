@@ -166,5 +166,48 @@ namespace AppVisual
         {
             
         }
-    }
+
+        private void button1B_Click(object sender, EventArgs e)
+        {
+            // Obtener el número de celular a buscar desde el cuadro de texto
+            string numeroCelularABuscar = textBoxNumeroCelularVenta.Text;
+
+            // Validar que el número de celular no esté vacío
+            if (!string.IsNullOrWhiteSpace(numeroCelularABuscar))
+            {
+                // Buscar el número de celular en la lista de ventas
+                Venta ventaEncontrada = BuscarVentaPorNumeroCelular(numeroCelularABuscar);
+
+                if (ventaEncontrada != null)
+                {
+                    // Mostrar la venta encontrada o realizar las acciones que desees
+                    MessageBox.Show("Venta encontrada: {ventaEncontrada.NombreVenta}", "Resultado de la búsqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("No se encontró ninguna venta con el número de celular especificado.", "Resultado de la búsqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingrese un número de celular para buscar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private Venta BuscarVentaPorNumeroCelular(string numeroCelular)
+            {
+                // Iterar sobre la lista de ventas y buscar por número de celular
+                foreach (Venta venta in listaVenta)
+                {
+                    if (venta.NumeroCelularVenta.ToString() == numeroCelular)
+                    {
+                        // Venta encontrada, devolverla
+                        return venta;
+                    }
+                }
+
+                // Si no se encuentra ninguna venta con el número de celular especificado, devolver null
+                return null;
+            }
+         }
 }
