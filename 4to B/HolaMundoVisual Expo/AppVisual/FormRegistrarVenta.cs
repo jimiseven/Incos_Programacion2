@@ -31,10 +31,14 @@ namespace AppVisual
                     int idVenta = int.Parse(textBoxIdVenta.Text);
                     int numeroCelularVenta = int.Parse(textBoxNumeroCelularVenta.Text);
                     string nombreVenta = textBoxNombreVenta.Text;
+                    int costo = int.Parse(textBox1.Text);
+                    string servicio = comboBox2.Text;
                     DateTime fechaInicio = DateTime.Parse(dateTimePickerFechaInicioVenta.Text);
                     DateTime fechaFin = DateTime.Parse(dateTimePickerFechaFinVenta.Text);
 
-                    Venta ventas = new Venta(idVenta, numeroCelularVenta, nombreVenta, fechaInicio, fechaFin);
+                    int dias = (fechaInicio - fechaFin).Days;
+
+                    Venta ventas = new Venta(idVenta, numeroCelularVenta, costo, nombreVenta, servicio, fechaInicio, fechaFin);
                     listaVenta.Add(ventas);
                     ActualizarDataGridView();
                     Limpiar();
@@ -76,6 +80,16 @@ namespace AppVisual
             // Actualizamos el origen de datos del DataGridView
             dataGridViewVentas.DataSource = null;
             dataGridViewVentas.DataSource = listaVenta;
+
+
+            // Agregamos la columna "Dias" solo si no existe
+            if (!dataGridViewVentas.Columns.Contains("Dias"))
+            {
+                dataGridViewVentas.Columns.Add("Dias", "Días");
+                dataGridViewVentas.Columns["Dias"].DataPropertyName = "Dias";
+            }
+
+            // Actualizamos los valores de la columna "Dias"
         }
 
         private void Limpiar()
@@ -83,6 +97,8 @@ namespace AppVisual
             textBoxIdVenta.Text = "";
             textBoxNumeroCelularVenta.Text = "";
             textBoxNombreVenta.Text = "";
+            comboBox2.Text = "";
+            textBox1.Text = "";
             dateTimePickerFechaInicioVenta.Text = "";
             dateTimePickerFechaFinVenta.Text = "";
         }
@@ -122,6 +138,8 @@ namespace AppVisual
                     textBoxIdVenta.Text = ventaSeleccionada.IdVenta.ToString();
                     textBoxNumeroCelularVenta.Text = ventaSeleccionada.NumeroCelularVenta.ToString();
                     textBoxNombreVenta.Text = ventaSeleccionada.NombreVenta;
+                    comboBox2.Text = ventaSeleccionada.Servicio;
+                    textBox1.Text = ventaSeleccionada.costo.ToString();
                     dateTimePickerFechaInicioVenta.Text = ventaSeleccionada.FechaInicio.ToString();
                     dateTimePickerFechaFinVenta.Text = ventaSeleccionada.FechaFin.ToString();
 
@@ -138,10 +156,13 @@ namespace AppVisual
             {
                 try
                 {
+                    
                     // Modificamos el objeto Venta en la lista con los nuevos valores
                     Venta ventaModificada = new Venta(
                         int.Parse(textBoxIdVenta.Text),
                         int.Parse(textBoxNumeroCelularVenta.Text),
+                        int.Parse(textBox1.Text),
+                        comboBox2.Text,
                         textBoxNombreVenta.Text,
                         DateTime.Parse(dateTimePickerFechaInicioVenta.Text),
                         DateTime.Parse(dateTimePickerFechaFinVenta.Text)
