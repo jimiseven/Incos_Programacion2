@@ -170,9 +170,9 @@
             this.labelNombreVenta.ForeColor = System.Drawing.Color.Black;
             this.labelNombreVenta.Location = new System.Drawing.Point(34, 170);
             this.labelNombreVenta.Name = "labelNombreVenta";
-            this.labelNombreVenta.Size = new System.Drawing.Size(109, 19);
+            this.labelNombreVenta.Size = new System.Drawing.Size(124, 19);
             this.labelNombreVenta.TabIndex = 84;
-            this.labelNombreVenta.Text = "Nombre Venta";
+            this.labelNombreVenta.Text = "Nombre Usuario";
             // 
             // labelNumeroCelularVenta
             // 

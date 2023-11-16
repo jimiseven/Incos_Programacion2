@@ -83,3 +83,22 @@ F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppV
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
 F:\Incos\2023\Programacion 2\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csprojResolveAssemblyReference.cache
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe.config
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.exe
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.pdb
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csprojResolveAssemblyReference.cache
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarCliente.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarCuenta.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarServicio.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarUsuario.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarVenta.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesCuenta.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesServicio.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesUsuario.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormReportesVenta.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.Properties.Resources.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaPrincipal.resources
+C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csproj.GenerateResource.Cache
