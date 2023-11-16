@@ -31,14 +31,14 @@ namespace AppVisual
                     int idVenta = int.Parse(textBoxIdVenta.Text);
                     int numeroCelularVenta = int.Parse(textBoxNumeroCelularVenta.Text);
                     string nombreVenta = textBoxNombreVenta.Text;
-                    int costo = int.Parse(textBox1.Text);
+                    int precioVenta = int.Parse(textBox1.Text);
                     string servicio = comboBox2.Text;
                     DateTime fechaInicio = DateTime.Parse(dateTimePickerFechaInicioVenta.Text);
                     DateTime fechaFin = DateTime.Parse(dateTimePickerFechaFinVenta.Text);
 
                     int dias = (fechaInicio - fechaFin).Days;
 
-                    Venta ventas = new Venta(idVenta, numeroCelularVenta, costo, nombreVenta, servicio, fechaInicio, fechaFin);
+                    Venta ventas = new Venta(idVenta, numeroCelularVenta, precioVenta, nombreVenta, servicio, fechaInicio, fechaFin);
                     listaVenta.Add(ventas);
                     ActualizarDataGridView();
                     Limpiar();
@@ -115,10 +115,29 @@ namespace AppVisual
                 return false;
             }
 
+            // Validar que el número de celular esté en el rango especificado
+            if (!EsNumeroCelularValido(int.Parse(textBoxNumeroCelularVenta.Text)))
+            {
+                MessageBox.Show("El número de celular debe estar entre 60000000 y 79999999.", "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
             // También puedes agregar validaciones específicas para cada campo si es necesario
 
             return true;
         }
+
+        private bool EsNumeroCelularValido(int numeroCelular)
+            {
+                // Verificar si el número de celular es un número válido y está en el rango especificado
+                if (numeroCelular > 60000000 && numeroCelular <= 79999999)
+                {
+                    return true;
+                }
+
+                return false;
+            }
+
 
         private void button2Mod_Click(object sender, EventArgs e)
         {
@@ -139,7 +158,7 @@ namespace AppVisual
                     textBoxNumeroCelularVenta.Text = ventaSeleccionada.NumeroCelularVenta.ToString();
                     textBoxNombreVenta.Text = ventaSeleccionada.NombreVenta;
                     comboBox2.Text = ventaSeleccionada.Servicio;
-                    textBox1.Text = ventaSeleccionada.costo.ToString();
+                    textBox1.Text = ventaSeleccionada.precioVenta.ToString();
                     dateTimePickerFechaInicioVenta.Text = ventaSeleccionada.FechaInicio.ToString();
                     dateTimePickerFechaFinVenta.Text = ventaSeleccionada.FechaFin.ToString();
 

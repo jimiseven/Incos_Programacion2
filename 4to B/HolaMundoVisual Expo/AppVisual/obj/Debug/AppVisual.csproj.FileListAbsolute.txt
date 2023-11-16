@@ -69,7 +69,6 @@ C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\A
 C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.pdb
 C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.exe
 C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\bin\Debug\AppVisual.pdb
-C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.csprojResolveAssemblyReference.cache
 C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.VentanaInicio.resources
 C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarCliente.resources
 C:\Users\LocalHome\Desktop\last\Incos_Programacion2\4to B\HolaMundoVisual Expo\AppVisual\obj\Debug\AppVisual.FormRegistrarCuenta.resources

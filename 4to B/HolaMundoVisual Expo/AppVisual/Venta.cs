@@ -10,17 +10,17 @@ namespace AppVisual
     {
         public int idVenta;
         public int numeroCelularVenta;
-        public int costo;
+        public int precioVenta;
         public string nombreVenta;
         private string servicio;
         public DateTime fechaInicio;
         public DateTime fechaFin;
 
-        public Venta(int idVenta, int numeroCelularVenta, int costo, string nombreVenta, string servicio, DateTime fechaInicio, DateTime fechaFin)
+        public Venta(int idVenta, int numeroCelularVenta, int precioVenta, string nombreVenta, string servicio, DateTime fechaInicio, DateTime fechaFin)
         {
             this.idVenta = idVenta;
             this.numeroCelularVenta = numeroCelularVenta;
-            this.costo = costo;
+            this.precioVenta = precioVenta;
             this.nombreVenta = nombreVenta;
             this.servicio = servicio;
             this.fechaInicio = fechaInicio;
@@ -40,10 +40,10 @@ namespace AppVisual
             set { numeroCelularVenta = value; }
         }
 
-        public int Costo
+        public int PrecioVenta
         {
-            get { return costo; }
-            set { costo = value; }
+            get { return precioVenta; }
+            set { precioVenta = value; }
         }
 
         public string NombreVenta
@@ -84,7 +84,7 @@ namespace AppVisual
             Console.WriteLine("Estos son los datos de la Venta: ");
             Console.WriteLine("id de la venta : " + idVenta);
             Console.WriteLine("numero de celular de la Venta : " + numeroCelularVenta);
-            Console.WriteLine("numero de celular de la Venta : " + costo);
+            Console.WriteLine("numero de celular de la Venta : " + precioVenta);
             Console.WriteLine("nombre de la venta : " + nombreVenta);
             Console.WriteLine("fecha inicio  : " + fechaInicio);
             Console.WriteLine("fecha fin : " + fechaFin);
