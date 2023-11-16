@@ -22,7 +22,7 @@ namespace AppVisual
             InitializeComponent();
         }
 
-        private void ButttonRegistrar_Click(object sender, EventArgs e)
+        public void ButttonRegistrar_Click(object sender, EventArgs e)
         {
             if (ValidarCampos())
             {
