@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             int numero = 192;
-            int subRedes = 4;
+            int subRedes = 11;
             int bits = 0;
             int indS = 0;
             do
@@ -65,13 +65,45 @@ namespace ConsoleApplication1
             }
 
 
-        Console.WriteLine("El número :" +numero+ "pertenece a la clase :" +clase);
-        Console.WriteLine("bits " + bits);
-        Console.WriteLine("inds " + indS);
-        Console.WriteLine("subredes " + subRedes);
-        Console.WriteLine("masc " + masc);
-        Console.WriteLine("clase " + clase);
-        Console.WriteLine("saltos " + saltos);
+            //imprecion de variables 
+            Console.WriteLine("El número :" + numero + "pertenece a la clase :" + clase);
+            Console.WriteLine("bits " + bits);
+            Console.WriteLine("inds " + indS);
+            Console.WriteLine("subredes " + subRedes);
+            Console.WriteLine("masc " + masc);
+            Console.WriteLine("clase " + clase);
+            Console.WriteLine("saltos " + saltos);
+
+            //parte para calcular las direcciones por grupos ()
+            int dir = 0;
+            int broad = (dir + saltos-1);
+            int usableIni = dir+1;
+            int usableEnd = broad -1;
+            int ndir = 1;
+            Console.WriteLine("Grupo de direcciones : " + ndir);
+            Console.WriteLine("dir :" + dir);
+            Console.WriteLine("broad :" + broad);
+            Console.WriteLine("usableIni :" + usableIni);
+            Console.WriteLine("usableEnd :" + usableEnd);
+            ndir++;
+
+
+            for (int ind = 1; ind < subRedes; ind++ )
+            {
+                dir = dir + saltos;
+                broad = (dir + saltos - 1);
+                usableIni = dir + 1;
+                usableEnd = broad - 1;
+                Console.WriteLine("Grupo de direcciones : " + ndir);
+                Console.WriteLine("dir " + dir);
+                Console.WriteLine("broad :" + broad);
+                Console.WriteLine("usableIni :" + usableIni);
+                Console.WriteLine("usableEnd :" + usableEnd);
+                ndir++;
+                
+            }
+
+        
         }
     }
 }
