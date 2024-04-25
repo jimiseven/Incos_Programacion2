@@ -10,7 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int numero = 192;
+            int oct1 = 192;
+            int oct2 = 168;
+            int oct3 = 1;
             int subRedes = 11;
             int bits = 0;
             int indS = 0;
@@ -34,15 +36,15 @@ namespace ConsoleApplication1
 
         string clase;
 
-        if (numero >= 0 && numero <= 127)
+        if (oct1 >= 0 && oct1 <= 127)
         {
             clase = "Clase A";
         }
-        else if (numero >= 128 && numero <= 191)
+        else if (oct1 >= 128 && oct1 <= 191)
         {
             clase = "Clase B";
         }
-        else if (numero >= 192 && numero <= 256)
+        else if (oct1 >= 192 && oct1 <= 256)
         {
             clase = "Clase C";
         }
@@ -62,11 +64,41 @@ namespace ConsoleApplication1
             else if (clase == "Clase C")
             {
                 masc = 24 + bits;
+                //parte para calcular las direcciones por grupos ()
+                int dir = 0;
+                int broad = (dir + saltos - 1);
+                int usableIni = dir + 1;
+                int usableEnd = broad - 1;
+                int ndir = 1;
+                Console.WriteLine("========================================");
+                Console.WriteLine("Grupo de direcciones : " + ndir);
+                Console.WriteLine("Direccion de iP:" + oct1 + "." + oct2 + "." + oct3 + "." + dir);
+                Console.WriteLine("BroadCast :" + oct1 + "." + oct2 + "." + oct3 + "." + broad);
+                Console.WriteLine("Primera ip USABLE :" + oct1 + "." + oct2 + "." + oct3 + "." + usableIni);
+                Console.WriteLine("Ultima ip USABLE  :" + oct1 + "." + oct2 + "." + oct3 + "." + usableEnd);
+                ndir++;
+                Console.WriteLine("========================================");
+
+
+                for (int ind = 1; ind < subRedes; ind++)
+                {
+                    dir = dir + saltos;
+                    broad = (dir + saltos - 1);
+                    usableIni = dir + 1;
+                    usableEnd = broad - 1;
+                    Console.WriteLine("Grupo de direcciones : " + ndir);
+                    Console.WriteLine("Direccion de iP:" + oct1 + "." + oct2 + "." + oct3 + "." + dir);
+                    Console.WriteLine("BroadCast :" + oct1 + "." + oct2 + "." + oct3 + "." + broad);
+                    Console.WriteLine("Primera ip USABLE :" + oct1 + "." + oct2 + "." + oct3 + "." + usableIni);
+                    Console.WriteLine("Ultima ip USABLE  :" + oct1 + "." + oct2 + "." + oct3 + "." + usableEnd);
+                    ndir++;
+                    Console.WriteLine("========================================");
+                }
             }
 
 
             //imprecion de variables 
-            Console.WriteLine("El número :" + numero + "pertenece a la clase :" + clase);
+            Console.WriteLine("El número : " + oct1 + " pertenece a la clase : " + clase);
             Console.WriteLine("bits " + bits);
             Console.WriteLine("inds " + indS);
             Console.WriteLine("subredes " + subRedes);
@@ -74,34 +106,7 @@ namespace ConsoleApplication1
             Console.WriteLine("clase " + clase);
             Console.WriteLine("saltos " + saltos);
 
-            //parte para calcular las direcciones por grupos ()
-            int dir = 0;
-            int broad = (dir + saltos-1);
-            int usableIni = dir+1;
-            int usableEnd = broad -1;
-            int ndir = 1;
-            Console.WriteLine("Grupo de direcciones : " + ndir);
-            Console.WriteLine("dir :" + dir);
-            Console.WriteLine("broad :" + broad);
-            Console.WriteLine("usableIni :" + usableIni);
-            Console.WriteLine("usableEnd :" + usableEnd);
-            ndir++;
-
-
-            for (int ind = 1; ind < subRedes; ind++ )
-            {
-                dir = dir + saltos;
-                broad = (dir + saltos - 1);
-                usableIni = dir + 1;
-                usableEnd = broad - 1;
-                Console.WriteLine("Grupo de direcciones : " + ndir);
-                Console.WriteLine("dir " + dir);
-                Console.WriteLine("broad :" + broad);
-                Console.WriteLine("usableIni :" + usableIni);
-                Console.WriteLine("usableEnd :" + usableEnd);
-                ndir++;
-                
-            }
+            
 
         
         }
