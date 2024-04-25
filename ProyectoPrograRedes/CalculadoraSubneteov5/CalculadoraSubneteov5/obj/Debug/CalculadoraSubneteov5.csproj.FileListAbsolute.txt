@@ -1,0 +1,9 @@
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\bin\Debug\CalculadoraSubneteov5.exe.config
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\bin\Debug\CalculadoraSubneteov5.exe
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\bin\Debug\CalculadoraSubneteov5.pdb
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\obj\Debug\CalculadoraSubneteov5.Form1.resources
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\obj\Debug\CalculadoraSubneteov5.Properties.Resources.resources
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\obj\Debug\CalculadoraSubneteov5.csproj.GenerateResource.Cache
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\obj\Debug\CalculadoraSubneteov5.exe
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\obj\Debug\CalculadoraSubneteov5.pdb
+D:\incos\2024\Programacion 3\Subir\Incos_Programacion2\ProyectoPrograRedes\CalculadoraSubneteov5\CalculadoraSubneteov5\obj\Debug\CalculadoraSubneteo.Form1.resources
